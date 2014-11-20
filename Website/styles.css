@@ -47,6 +47,10 @@ section{
 	margin-left: 20px;
 }
 
+table{
+	 border: 1px solid black;
+	 width:100%;
+}
 ul {list-style-type: none;
 	background-color: cyan;
 	padding: 10px;
@@ -56,9 +60,11 @@ ul li {	display: block;
 		padding: 10px;
 		position: relative;
 		}
-ul li:last-child {border-right: none;}
+ul li:last-child {
+	border-right: none;}
 
-ul li ul {position: absolute;
+ul li ul {
+	position: absolute;
 			top: 40px;
 			left:0px;
 			visibility: hidden;}
