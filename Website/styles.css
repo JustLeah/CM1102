@@ -1,96 +1,202 @@
 .breaker{
 	clear:both;
 	height:0px;
-
 }
 
 #left_sidebar{
 	width: 200px;
 	float: left;
+	margin-top:15px;
 }
 body{
-	font-family: "Comic Sans MS", arial, sans-serif ;
+	font-family: 'Montserrat', sans-serif;
 	width:100%;
 	height:100%;
+	background-color: #A6A7A9;
+	background-repeat: no-repeat;
+	margin:0px;
+	padding:0px;
+
 }
 
 h1 {
-	font-size: 30pt;
-	font-style: italic;
+	font-family: 'Ubuntu';
+	font-size: 33pt;
 	font-weight: lighter;
-	letter-spacing: 4px;
-	text-indent: 50px;
+	letter-spacing: 5px;
+	margin-left: 130px;
+	color:white;
+	margin-top:20px;
+	float:left;
+}
+h2{
+	font-family: 'Ubuntu';
+	font-size: 15pt;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	margin-left: 130px;
+	color:white;
+	margin-top:20px;
+	float:left;
+	height:10px;
 }
 	
-header {height: 100px;
-		background-color: black;
-		color: yellow;
-		border: purple solid 5px;
-		}
-
-#adverts {
+header {
+	height: 100px;
+	width:100%;
+	background-color:#737278;
+}
+	
+nav {
 	width: 200px;
 	float: left;
-	height: 400px;
-	background-color: pink;
-}
-		
-nav {width: 200px;
-	float: left;
+	color:#fff;
+	background-color:#737278;
+	font-size:13pt;
 }
 section{
-	width: 740px;
+	width: 710px;
 	float:left;
 	min-height: 565px;
-	background-color: blue;
+	background-color: #737278;
 	margin-top: 16px;
 	margin-left: 20px;
+	padding:15px;
+	text-align: justify;
+	color:white;
+	position: relative;
 }
 
 table{
-	 border: 1px solid black;
+	 border:none;
 	 width:100%;
+	 text-align: center;
 }
-ul {list-style-type: none;
-	background-color: cyan;
-	padding: 10px;
-	}
 
-ul li {	display: block;
-		padding: 10px;
-		position: relative;
-		}
+th{
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+ul li {	
+	display: block;
+	padding: 10px;
+	position: relative;
+}
 ul li:last-child {
-	border-right: none;}
+	border-right: none;
+}
 
 ul li ul {
 	position: absolute;
-			top: 40px;
-			left:0px;
-			visibility: hidden;}
+	top: 40px;
+	left:0px;
+	visibility: hidden;
+}
 
-ul li ul li {display: block;
-			border-right: none;}
+ul li ul li {
+	display: block;
+	border-right: none;
+}
 			
-ul li:hover ul {visibility: visible;}
+ul li:hover ul {
+	visibility: visible;
+}
 		
-ul li:hover {background-color: gray;}
+ul li:hover {
+	background-color: gray;
+}
 
-ul li a {text-decoration: none;}
+ul li a {
+	text-decoration: none;
+}
 
-ul li a:link {color: purple;}
-ul li a:visited {color: purple;}
-ul li a:hover {color: red;}	
+a:link {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+}	
 
 #body_container{
 	width:960px;
 	margin:0 auto;
 }
 
-#footer{
-	width: 960px;
+#refrences{
+	width: 200px;
 	min-height: 10px;
-	background-color: purple;
+	background-color: #737278;
 	float: left;
 	margin-top: 15px;
 }	
+
+#page_title{
+	width: 960px;
+	float: left;
+	height: 50px;
+}
+
+#page_sub_title{
+	width:960px;
+	margin-left:260px;
+}
+
+#titles{
+	width:960px;
+	margin:0 auto;
+}
+
+#refrences p:first-child {
+	text-align:center;
+	font-family: 'Montserrat';
+	font-size:13pt;
+}
+
+#refrences p{
+	color:white;
+	padding:5px;
+	font-weight:ligher;
+	font-size:10pt;
+	font-family:'Ubuntu';
+}
+
+#chansenl{
+	float:left;
+	margin-left:-19px;
+	 -webkit-transform: scaleX(-1);
+}
+#chansenr{
+	float:right;
+	margin-right:-19px;
+}
+
+#chansenm{
+	left: 325px;
+	position: absolute;
+	top: 621px;
+}
+
+.wotext p{
+	color:white;
+	padding:5px;
+	font-weight:ligher;
+	font-size:13pt;
+	font-family:'Ubuntu';
+}
+
+#osi{
+margin-left:155px;
+}
