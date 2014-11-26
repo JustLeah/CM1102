@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang= "en" >
+	<head>
+		<title>When does easter fall?</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,500' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			<div id="titles">
+				<div id="page_title">
+					<h1>WHEN DOES EASTER FALL?!</h1>
+				</div>
+				<div id="page_sub_title">
+					<h2>EASTER EGGS!</h2>
+				</div>
+			</div>
+		</header>
+		<form method='POST' action='../cgi-bin/easterday.py' id='easterform'>
+		<div id="body_container">		
+			<div id='left_sidebar'>
+				<div id='formatting'>
+					<p>FORMATTING</p>
+					<div id='radiobuttons'>
+						<div class='singlebutton'>
+							<input id='radio1' type="radio" name="format" value="1" checked> <label for='radio1'>20/04/2014</label>
+						</div>
+						<div class='singlebutton'>
+							<input id='radio2' type="radio" name="format" value="2"><label for='radio2'>20<sup>th</sup> APRIL 2014</label>
+						</div>
+						<div class='singlebutton'>
+							<input id='radio3' type="radio" name="format" value="3"><label for='radio3'>BOTH</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section>
+				<div class="wotext">
+						<label for='yearform'>
+							<span id='titleform'>WHAT YEAR TO DO WANT TO FIND EASTER?</span>
+						</label>
+						<input type='text' id='yearform' name='year' placeholder='PLEASE ENTER A YEAR...' /> 
+						<input type='submit' id='submitform' value='FIND EASTER!' form='easterform' />
+				</div>
+			</section>
+		</div>
+		</form>
+	</body>
+</html>

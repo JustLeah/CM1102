@@ -1,0 +1,230 @@
+.breaker{
+	clear:both;
+	height:0px;
+}
+
+#left_sidebar{
+	width: 200px;
+	float: left;
+	margin-top:15px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	width:100%;
+	height:100%;
+	background-color: #A6A7A9;
+	background-repeat: no-repeat;
+	margin:0px;
+	padding:0px;
+
+}
+
+h1 {
+	font-family: 'Ubuntu';
+	font-size: 33pt;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	margin-left: 130px;
+	color:white;
+	margin-top:20px;
+	float:left;
+}
+h2{
+	font-family: 'Ubuntu';
+	font-size: 15pt;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	margin-left: 130px;
+	color:white;
+	margin-top:20px;
+	float:left;
+	height:10px;
+}
+#titleform{
+	font-family: 'Ubuntu';
+	font-size: 15pt;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	color:white;
+	margin-top:20px;
+	float:left;
+	height:10px;
+	margin-left: 55px;
+}
+#inyear{
+	font-family: 'Ubuntu';
+	font-size: 15pt;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	color:white;
+	margin-top:20px;
+	float:right;
+	height:10px;
+	bottom: 55px;
+	right: 55px;
+	position: absolute;
+	width: 300px;
+}
+#again{
+	font-family: 'Ubuntu';
+	font-size: 15pt;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	color: white;
+	margin-top: 20px;
+	height: 10px;
+	bottom: 20px;
+	position: absolute;
+	width: 273px;
+	right: -100px;
+}
+#yeardate{
+	font-family: 'Ubuntu';
+	font-size: 24pt;
+	letter-spacing: 5px;
+	color: #57d6c7;
+	margin-top: 60px;
+	float: left;
+	height: 10px;
+	width: 100%;
+	text-align: center;
+}
+	
+header {
+	height: 100px;
+	width:100%;
+	background-color:#737278;
+}
+	
+nav {
+	width: 200px;
+	float: left;
+	color:#fff;
+	background-color:#737278;
+	font-size:13pt;
+}
+section{
+	width: 710px;
+	float:left;
+	min-height: 205px;
+	background-color: #737278;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding:15px;
+	text-align: justify;
+	color:white;
+	position: relative;
+}
+
+
+a:link {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+}	
+
+#body_container{
+	width:960px;
+	margin:0 auto;
+}
+
+#formatting{
+	width: 200px;
+	min-height: 150px;
+	background-color: #737278;
+	float: left;
+	margin-top: 15px;
+}	
+
+#page_title{
+	width: 960px;
+	float: left;
+	height: 50px;
+}
+
+#page_sub_title{
+	width:960px;
+	margin-left:260px;
+}
+
+#titles{
+	width:960px;
+	margin:0 auto;
+}
+
+#formatting p:first-child {
+	text-align:center;
+	font-family: 'Montserrat';
+	font-size:13pt;
+	color:white;
+}
+
+#bunny{
+	color:white;
+	margin-left:20px;
+}
+
+.wotext p{
+	color:white;
+	padding:5px;
+	font-weight:ligher;
+	font-size:13pt;
+	font-family:'Ubuntu';
+}
+
+#yearform{
+	width: 565px;
+	margin-left: 55px;
+	height: 40px;
+	margin-top:20px;
+	font-family: 'Ubuntu';
+	font-size: 16pt;
+	text-align: center;
+	color: #737278;
+}
+
+#submitform{
+	width: 200px;
+	height: 45px;
+	margin-left: 235px;
+	margin-top: 30px;
+	font-family: 'Ubuntu';
+	font-size: 16pt;
+	padding: 10px 15px 11px !important;
+	background-color: #57d6c7;
+	font-weight: bold;
+	color: #ffffff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #57D6C7;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	cursor: pointer;
+}
+
+.singlebutton{
+	float:left;
+	width: 180px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.singlebutton input[type='radio']{
+	float:left;
+}
+#radiobuttons{
+	color: white;
+	padding: 5px;
+	font-weight: lighter;
+	font-size: 13pt;
+	font-family: 'Ubuntu';
+	text-align: right;
+}
